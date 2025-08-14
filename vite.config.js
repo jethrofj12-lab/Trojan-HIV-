@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/Trojan-HIV/',   // <-- must match repo name EXACTLY (incl. trailing dash)
+  base: '/Trojan-HIV/-',  
 })
